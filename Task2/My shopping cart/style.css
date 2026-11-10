@@ -1,0 +1,124 @@
+.navbar {
+    background-color: #8a77af;
+}
+
+
+
+/* General */
+body {
+    background-image:
+        linear-gradient(
+            rgba(248, 245, 252, 0.65),
+            rgba(248, 245, 252, 0.65)
+        ),
+        url("images/back.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Navbar */
+.purple-navbar {
+    background-color: #8a77af;
+}
+
+/* Product Cards */
+.product-card {
+    border: 1px solid #e4d8f5;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(111, 66, 193, 0.15);
+}
+
+/* Product Icons */
+.product-icon {
+    background-color: #eee5fa;
+    color: #6f42c1;
+    font-size: 55px;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Product Price */
+.price {
+    color: #6f42c1;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #59339d;
+    border-color: #59339d;
+}
+
+/* Shopping Cart Summary */
+.cart-summary {
+    border: 1px solid #d8c6f2;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.text-primary {
+    color: #6f42c1 !important;
+}
+
+/* Empty Cart */
+.empty-icon {
+    font-size: 50px;
+    color: #a58ad7;
+}
+
+/* Footer */
+
+footer {
+    background-color: #8a77af !important;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    main.container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .product-icon {
+        font-size: 42px;
+    }
+}
+
+
+
+/* Product Images */
+.product-image {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    background-color: #f8f5fc;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+/* Cart Product Image */
+.cart-product-image {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 10px;
+}
